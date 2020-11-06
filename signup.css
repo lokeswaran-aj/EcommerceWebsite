@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    text-align: center;
+    font-family:  sans-serif;
+    background-image: url("signup.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    background-size: cover;
+    height: 100%;
+}
+.logo img{
+    padding: 10px 25%;
+    width: 50%;
+}
+#box{
+    margin: 3% auto;
+    width: 50%;
+    background-color:rgba(41, 41, 41, 0.3);
+    text-align: center;
+}
+h1{
+    color: azure;
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+}
+#fname{
+    width: 85%;
+    text-align: center;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    outline: 0ch;
+}
+#lname{
+    width: 85%;
+    text-align: center;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    outline: 0ch;
+}
+#phone{
+    width: 85%;
+    text-align: center;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    outline: 0ch;
+}
+#email{
+    width: 85%;
+    text-align: center;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    outline: 0ch;
+}
+#psd{
+    width: 85%;
+    text-align: center;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    outline: 0ch;
+}
+::placeholder{
+    margin: 0 auto;
+    width: 100%;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.inputbox{
+    overflow: hidden;
+    font-size: small;
+    margin: 10px 5%;
+    padding: 10px;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    border-bottom: 3px rgb(14, 15, 4) solid;
+    outline: 0ch;
+}
+.inputbox input{
+    color: aliceblue;
+}
+.inputbox i{
+    color: aliceblue;
+    width: 20px;
+    float: left;
+    text-align: center;
+}
+input{
+    font-size: small;
+}
+#btn{
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 25px;
+    padding: 10px 50px;
+    outline: 0px;
+    background-color: rgb(8, 12, 255);
+    border: 0ch;
+    color: aliceblue;
+}
+.btn-facebook{
+    margin: 10px;
+    color: white;
+    padding: 10px 40px;
+    background-color:#3b5998;
+}
+.btn-google{
+    margin: 10px;
+    color: white;
+    padding: 10px 40px;
+    background-color: #ea4335;
+}
+.login{
+    color: aliceblue;
+    padding: 10px;
+    font-size: small;
+}
+.login a{
+    color: aqua;
+    text-decoration: underline;
+}

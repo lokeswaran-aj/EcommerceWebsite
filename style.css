@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family:  sans-serif;
+    background-image: url("login.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    background-size: cover;
+    height: 100%;
+}
+.logo img{
+    padding: 10px 30%;
+    width: 40%;
+}
+#box{
+    margin: 3% 25%;
+    width: 50%;
+    background-color:rgba(226, 226, 226, 0.4);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+#uname{
+    width: 80%;
+    text-align: center;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    outline: 0ch;
+}
+::placeholder{
+    margin: 0 auto;
+    width: 100%;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#psd{
+    width: 80%;
+    text-align: center;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    border-bottom: 0px green solid;
+    outline: 0ch;
+}
+input{
+    font-size: small;
+}
+.inputbox{
+    overflow: hidden;
+    font-size: small;
+    margin: 10px 5%;
+    padding: 10px;
+    background-color:rgba(5, 5, 5, 0);
+    border: 0ch;
+    border-bottom: 4px green solid;
+    outline: 0ch;
+}
+.inputbox i{
+    width: 20px;
+    float: left;
+    text-align: center;
+}
+.remember{
+    text-align: left;
+    margin: 10px 5%;
+    font-size: x-small;
+    padding-left: 10px;
+}
+#btn{
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 25px;
+    padding: 10px 50px;
+    outline: 0px;
+    background-color: rgb(8, 12, 255);
+    border: 0ch;
+    color: aliceblue;
+}
+.signup{
+    padding: 10px;
+    font-size: small;
+}
+.signup a{
+    color: brown;
+    text-decoration: underline;
+}
+.btn-facebook{
+    margin: 10px;
+    color: white;
+    padding: 10px 40px;
+    background-color:#3b5998;
+}
+.btn-google{
+    margin: 10px;
+    color: white;
+    padding: 10px 40px;
+    background-color: #ea4335;
+}
